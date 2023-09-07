@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Provides the statuses of all Pets in the store.","verify GET for details of pets based on their ""<status>""","SUCCESS","2023-09-07T10:53:27.7309474+05:30[Asia/Calcutta]","0.0","5.66"
+"Provides the statuses of all Pets in the store.","verify GET for details of pets based on their ""<status>""","SUCCESS","2023-09-07T13:36:53.1334131+05:30[Asia/Calcutta]","0.0","7.74"
