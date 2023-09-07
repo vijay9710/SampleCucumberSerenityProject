@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    parameters{
-        choice(name: 'env', choice: ['integ', 'uat', 'prepod'])
-    }
     stages {
         stage('Show inputs'){
             steps{
