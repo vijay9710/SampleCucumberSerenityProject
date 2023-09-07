@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    parameters{
+        choice(name: 'env', choice: ['integ', 'uat', 'prepod'])
+    }
     stages {
         stage('Show inputs'){
             steps{
@@ -11,11 +14,10 @@ pipeline {
                         checkout scm
              }
         }
-            stages {
-                stage('Test') {
-                    steps {
-                        bat "gradle clean test"
-                    }
+         stage('Test') {
+               steps {
+                  bat "gradle clean test"
+               }
+         }
     }
- }
  }
